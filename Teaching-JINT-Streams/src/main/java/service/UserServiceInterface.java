@@ -51,7 +51,7 @@ public interface UserServiceInterface {
     /**
      * Prints capitalized permission names of users with surname ending with suffix given.
      */
-    void printCapitalizedPermissionNamesOfUsersWithSurnameStartingWith(String suffix);
+    void printCapitalizedPermissionNamesOfUsersWithSurnameEndingWith(String suffix);
 
     /**
      * Groups users by role.
